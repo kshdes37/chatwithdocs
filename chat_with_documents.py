@@ -27,7 +27,7 @@ set_environment()
 
 # Setup LLM and QA chain; set temperature low to keep hallucinations in check
 LLM = ChatOpenAI(
-    model_name="gpt-3.5-turbo", temperature=0, streaming=True
+    model_name="gpt-4o", temperature=0, streaming=True
 )
 
 
