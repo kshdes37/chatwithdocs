@@ -18,7 +18,7 @@ LOGGER = logging.getLogger()
 icon_path ='https://ta-relay-public-files-prod.s3.us-east-2.amazonaws.com/icp/product_images/37dff2c0e54836fe535a374bb11a7e62.png'
 
 # Set page configuration with title and icon
-st.set_page_config(page_title="BY ChatBot", page_icon=🤖)
+st.set_page_config(page_title="BY ChatBot", page_icon="🤖")
 
 # Display title
 st.title("🤖 BY ChatBot")
